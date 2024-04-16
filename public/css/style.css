@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+#container{
+    display: grid;
+    grid:"header header header"
+          "aside center ads"
+          "footer footer footer";
+}
+#container>form{
+    grid-area: center;
+    border:.2rem solid green;
+}
